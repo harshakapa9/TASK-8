@@ -4,9 +4,9 @@ const Testimonials = () => {
   return (
     <div>
       <section className="testimonials-one">
-        <div className="testimonials-one__bg" style={{ backgroundImage: 'url(/images/shapes/testimonial-bg-1.png)' }}></div>
+        <div className="testimonials-one__bg" style={{ backgroundImage: 'url(./images/shapes/testimonial-bg-1.png)' }}></div>
         <div className="testimonials-one__left-color"></div>
-        <div className="testimonials-one__image" style={{ backgroundImage: 'url(/images/resources/testimonial-image-1.png)' }}></div>
+        <div className="testimonials-one__image" style={{ backgroundImage: 'url(./images/resources/testimonial-image-1.png)' }}></div>
         <div className="container">
           <div className="row">
             <div className="col-xl-6">
@@ -39,7 +39,7 @@ const Testimonials = () => {
                       Ienet internet Company also impressed us with their transparency regarding costs. The initial quote was accurate, and they were upfront about any changes or additional expenses that
                     </div>
                     <div className="testimonials-card__author">
-                      <img src="/images/resources/p1.jpg" alt="Anthony B. Castillo" />
+                      <img src="./images/resources/p1.jpg" alt="Anthony B. Castillo" />
                       <h3 className="testimonials-card__name">
                         Anthony B. Castillo
                       </h3>
