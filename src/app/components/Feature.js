@@ -40,7 +40,7 @@ const Feature = () => {
             <div className="col-lg-4 wow fadeInUp py-3" data-wow-delay="100ms">
               <div className="feature-one__image">
                 <div className="feature-one__image__one">
-                  <img src="/images/resources/feature-1-1.jpg" alt="ienet" />
+                  <img src="./images/resources/feature-1-1.jpg" alt="ienet" />
                 </div>
               </div>
             </div>
