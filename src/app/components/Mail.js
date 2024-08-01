@@ -4,10 +4,10 @@ const Mail = () => {
   return (
     <div>
       <section className="mail-one">
-        <div className="mail-one__bg" style={{ backgroundImage: 'url(/images/mail-bg-1.jpg)' }}></div>
+        <div className="mail-one__bg" style={{ backgroundImage: 'url(./images/mail-bg-1.jpg)' }}></div>
         {/* /.movie-one__bg */}
-        <div className="mail-one__shape-left" style={{ backgroundImage: 'url(/images/resources/mail-shape-1.png)' }}></div>
-        <div className="mail-one__shape-right" style={{ backgroundImage: 'url(/images/resources/mail-shape-2.png)' }}></div>
+        <div className="mail-one__shape-left" style={{ backgroundImage: 'url(./images/resources/mail-shape-1.png)' }}></div>
+        <div className="mail-one__shape-right" style={{ backgroundImage: 'url(./images/resources/mail-shape-2.png)' }}></div>
         <div className="container">
           <div className="mail-one__content">
             <div className="sec-title text-left">
