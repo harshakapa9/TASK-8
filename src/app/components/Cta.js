@@ -9,7 +9,7 @@ const Cta = () => {
             <div className="col-lg-6">
               <div className="cta-one__image wow fadeInLeft" data-wow-delay="100ms">
                 <div className="cta-one__image__one">
-                  <img src="/images/resources/cta-1-1.jpg" alt="ienet" />
+                  <img src="./images/resources/cta-1-1.jpg" alt="ienet" />
                 </div>
               </div>
             </div>
