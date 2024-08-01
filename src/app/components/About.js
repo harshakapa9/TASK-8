@@ -3,14 +3,14 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-      <section className="about-one" style={{ backgroundImage: 'url(/images/shapes/about-1-bg.png)' }}>
-        <div className="about-one__shape" style={{ backgroundImage: 'url(/images/resources/about-shape-1.png)' }}></div>
+      <section className="about-one" style={{ backgroundImage: 'url(./images/shapes/about-1-bg.png)' }}>
+        <div className="about-one__shape" style={{ backgroundImage: 'url(./images/resources/about-shape-1.png)' }}></div>
         <div className="container">
           <div className="row">
             <div className="col-xl-6">
               <div className="about-one__image wow fadeInLeft" data-wow-delay="300ms">
                 <div className="about-one__image__one">
-                  <img src="/images/about.png" alt="ienet" />
+                  <img src="./images/about.png" alt="ienet" />
                 </div>
                 <div className="about-one__image__bg"></div>
               </div>
