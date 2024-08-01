@@ -74,7 +74,7 @@ const Slider = () => {
       <section className="main-slider-one">
         <div className="item">
           <div className="main-slider-one__item">
-            <div className="main-slider-one__bg" style={{ backgroundImage: 'url(/images/backgrounds/slider-1-1.jpg)' }}></div>
+            <div className="main-slider-one__bg" style={{ backgroundImage: 'url(./images/backgrounds/slider-1-1.jpg)' }}></div>
             <div className="main-slider-one__content">
               <h5 className="main-slider-one__sub-title"><span className="main-slider-one__sub-title__border"></span>CONNECTING THE WORLD</h5>
               <h2 className="main-slider-one__title">Welcome to Your<br /> Digital Frontier</h2>
@@ -96,10 +96,10 @@ const Slider = () => {
             </div>
             <div className="main-slider-one__image">
               <div className="main-slider-one__image__one">
-                <img src="/images/slider-1-layer-3.png" alt="ienet" />
+                <img src="./images/slider-1-layer-3.png" alt="ienet" />
               </div>
             </div>
-            {/* <div className="main-slider-one__layer" style={{ backgroundImage: 'url(/images/slider-1-layer-3.png)' }}></div> */}
+            {/* <div className="main-slider-one__layer" style={{ backgroundImage: 'url(./images/slider-1-layer-3.png)' }}></div> */}
           </div>
         </div>
       </section>
