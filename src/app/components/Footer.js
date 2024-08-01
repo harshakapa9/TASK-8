@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <div>
       <footer className="main-footer background-black">
-        <div className="main-footer__bg background-black" style={{ backgroundImage: 'url(/images/shapes/footer-bg-1-1.png)' }}></div>
-        <div className="main-footer__shape-one" style={{ backgroundImage: 'url(/images/resources/footer-shape-1.png)' }}></div>
-        <div className="main-footer__shape-two" style={{ backgroundImage: 'url(/images/resources/footer-shape-2.png)' }}></div>
+        <div className="main-footer__bg background-black" style={{ backgroundImage: 'url(./images/shapes/footer-bg-1-1.png)' }}></div>
+        <div className="main-footer__shape-one" style={{ backgroundImage: 'url(./images/resources/footer-shape-1.png)' }}></div>
+        <div className="main-footer__shape-two" style={{ backgroundImage: 'url(./images/resources/footer-shape-2.png)' }}></div>
         <div className="main-footer__top">
           <div className="container">
             <div className="main-footer__top__inner">
@@ -43,7 +43,7 @@ const Footer = () => {
         <div className="container">
           <div className="main-footer__middle">
             <a href="index.html">
-              <img src="/images/logo-light.png" height="80" alt="Ienet HTML Template" />
+              <img src="./images/logo-light.png" height="80" alt="Ienet HTML Template" />
             </a>
             <form action="#" data-url="MAILCHIMP_FORM_URL" className="footer-widget__newsletter mc-form">
               <span className="footer-widget__newsletter__icon">                <svg  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.25em" width="1.25em" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z"></path></svg> 
@@ -104,22 +104,22 @@ const Footer = () => {
                 <h2 className="footer-widget__title">Our Gallery</h2>
                 <div className="footer-widget__gallery d-flex flex-wrap">
                   <a href="gallery.html" className="footer-widget__gallery__link">
-                    <img src="/images/resources/p1.jpg" alt="ienet" className="img-fluid" />
+                    <img src="./images/resources/p1.jpg" alt="ienet" className="img-fluid" />
                   </a>
                   <a href="gallery.html" className="footer-widget__gallery__link">
-                    <img src="/images/resources/package-1-1.jpg" alt="ienet" className="img-fluid" />
+                    <img src="./images/resources/package-1-1.jpg" alt="ienet" className="img-fluid" />
                   </a>
                   <a href="gallery.html" className="footer-widget__gallery__link">
-                    <img src="/images/resources/p2.jpg" alt="ienet" className="img-fluid" />
+                    <img src="./images/resources/p2.jpg" alt="ienet" className="img-fluid" />
                   </a>
                   <a href="gallery.html" className="footer-widget__gallery__link">
-                    <img src="/images/resources/package-1-3.jpg" alt="ienet" className="img-fluid" />
+                    <img src="./images/resources/package-1-3.jpg" alt="ienet" className="img-fluid" />
                   </a>
                   <a href="gallery.html" className="footer-widget__gallery__link">
-                    <img src="/images/resources/package-1-2.jpg" alt="ienet" className="img-fluid" />
+                    <img src="./images/resources/package-1-2.jpg" alt="ienet" className="img-fluid" />
                   </a>
                   <a href="gallery.html" className="footer-widget__gallery__link">
-                    <img src="/images/resources/p1.jpg" alt="ienet" className="img-fluid" />
+                    <img src="./images/resources/p1.jpg" alt="ienet" className="img-fluid" />
                   </a>
                 </div>
               </div>
